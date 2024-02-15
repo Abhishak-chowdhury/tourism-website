@@ -1,0 +1,553 @@
+@media screen and (max-width :1220px) {
+    header{
+        width: 90%;
+    }
+    .offers {
+        width: 72%;
+    }
+}
+@media screen and (max-width :1105px){
+    header .contant .tripbox .search_bx .card{
+        width: auto;
+    }
+    header{
+        width:92%;
+    }
+    .offers {
+        width: 77%;
+    }
+    .destination {
+        width: 55%;
+    }
+}
+@media screen and (max-width :1040px){
+    header {
+        width: 96%;
+    }
+    header .contant .tripbox .c_bx {
+        width: 96%;
+    }
+    .offers {
+        width: 83%;
+    }
+    .destination {
+        width: 57%;
+    }
+    header .contant .tripbox .search_bx {
+        width: 63%;
+    }
+}
+@media screen and (max-width :990px){
+    header .contant .tripbox .search_bx {
+        width: 66%;
+    }
+    .offers {
+        width: 89%;
+    }
+}
+@media screen and (max-width :943px){
+    header {
+        width: 99%;
+    }
+    .destination {
+        width: 60%;
+    }
+}
+@media screen and (max-width :920px){
+    .offers {
+        width: 95%;
+    }
+    header .contant .tripbox .c_bx .cards{
+        overflow: auto;
+    }
+    header .contant .tripbox .c_bx .cards .card{
+        min-width: 200px;
+        margin-right: 10px;
+    }
+    .destination {
+        width: 65%;
+    }
+}
+@media screen and (max-width :885px){
+    header .contant .tripbox .search_bx {
+        width: 70%;
+    }
+    .offers .cards .card {
+        /* border: 1px solid black; */
+        width: 185px;
+        height: 285px;
+    }
+}
+@media screen and (max-width :837px){
+    header .contant .tripbox .search_bx {
+        width: 75%;
+    }
+    .offers {
+        width: 97%;
+        margin-top: 100px;
+    }
+    .destination {
+        width: 75%;
+    }
+}
+@media screen and (max-width :815px){
+    .offers .cards {
+        flex-direction: column;
+    }
+    .offers .cards .card {
+        /* border: 1px solid black; */
+        width: 350px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+    .offers .cards .card .img_txt {
+        height: 226px;
+    }
+    .offers .cards .card .con_bx{
+        width: 99.8%;
+    }
+    .offers .cards .card .img_txt h4{
+        font-size: 13px;
+        padding: 9px 3.9px;
+    }
+    .offers .cards .card h3{
+        width: 305px;
+        height: 34px;
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width :787px){
+    header .contant .tripbox .search_bx {
+        width: 80%;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 46%;
+    }
+}
+@media screen and (max-width :728px){
+    header .contant .tripbox .search_bx {
+        width: 85%;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 39%;
+    }
+}
+@media screen and (max-width :700px){
+    header .contant .tripbox .search_bx {
+        width: 90%;
+    }
+    header .contant .tripbox .c_bx{
+        margin-left: 10px;
+    }
+    header .contant .tripbox .search_bx{
+        margin-left: 10px;
+    }
+    header .contant .con_box{
+        padding: 7px 10px;
+    }
+    header nav ul{
+    position: absolute;
+    width: 100px;
+    flex-direction: column;
+    background: white;
+    z-index: 999;
+    height: auto;
+    box-shadow: 0px 0px 10px gray;
+    top: -50%;
+    right: 10%;
+    margin: 0;
+    padding: 0px 24px 10px 30px;
+    transition: 1s linear;
+    }
+     .add{
+        top: 0%;
+    }
+    header nav ul li {
+        padding: 8px 0px;
+        text-align: center;
+    }
+    header nav ul li a{
+        text-align: center;
+    }
+    header {
+        width: 100%;
+    }
+    header nav .bi-three-dots-vertical {
+        display: unset;
+    }
+    .destination {
+        width: 85%;
+    }
+    
+}
+@media screen and (max-width: 652px){
+    header .contant .tripbox .search_bx {
+    width: 95%;
+    }
+}
+@media screen and (max-width: 620px){
+    .destination {
+        width: 95%;
+    }
+    .destination .book2 .msg{
+        padding: 0px 13px;
+        top: 76%;
+        left: -8%;
+    }
+    .destination .book2 .msg:nth-child(2){
+        top: 10%;
+        left: 45%;
+    }
+}
+@media screen and (max-width: 600px){
+    header .contant .tripbox .search_bx input[type="button"]{
+        position: absolute;
+        right: 10px;
+        bottom: -40px;
+        padding: 7px 10px;
+    }
+    header .contant .tripbox .search_bx .card{
+        width: 180px;
+    }
+    header .contant .tripbox .search_bx input[type="text"]{
+        width: 100%;
+    }
+    header .contant .tripbox .search_bx input[type="number"]{
+        width: 100%;
+    }
+    header .contant .tripbox .search_bx .card {
+        width: 155px;
+    }
+    header .contant .con_box{
+        width: auto;
+        padding: 7px 22px;
+    }
+    .offers .cards .card .img_txt h4 {
+        font-size: 10px;
+        padding: 5px 3px;
+    }
+    .offers .cards .card{
+        width: 270px;
+        height: 297px;
+    }
+    .offers .cards .card .img_txt {
+        height: 200px;
+    }
+    .offers .cards .card h3 {
+        width: 230px;
+        height: 33px;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 42%;
+    }
+}
+@media screen and (max-width: 600px){
+    .offers h1 {
+        font-size: 28px;
+    }
+    footer ul li {
+        margin-right: 35px;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 39%;
+    }
+}
+@media screen and (max-width: 480px){
+    .destination {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .destination .book1, .book2 {
+        width: 70%;
+    }
+    .destination .book1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 49%;
+    }
+    header .contant .tripbox .search_bx .card {
+        width: 140px;
+    }
+}
+@media screen and (max-width: 450px){
+    header .contant .tripbox .search_bx{
+        height: 55px;
+    }
+    header .contant .tripbox .search_bx .card h4 {
+        font-size: 13px;
+    }
+    header .contant .tripbox .search_bx .card input{
+        font-size: 11px;
+    }
+    header .contant .tripbox .c_bx {
+        height: 260px;
+    }
+    header .contant .tripbox .search_bx .card {
+        width: 125px;
+    }
+    .offers h1 {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    footer ul li {
+        margin-right: 20px;
+    }
+    footer p {
+        text-align: center;
+        width: 340px;
+    }
+}
+@media screen and (max-width: 430px){
+    header .contant .con_box button {
+        font-size: 12px;
+        padding: 5px 11px;
+    }
+    header .contant .con_box p {
+        font-size: 13px;
+    }
+    header .contant .con_box h1{
+        font-size: 25px;
+    }
+    header .contant .tripbox{
+        margin-top: 210px;
+    }
+}
+@media screen and (max-width: 362px){
+    header .contant .con_box p {
+        font-size: 11px;
+    }
+    header .contant .con_box h1{
+        font-size: 25px;
+    }
+    .offers h1 {
+        font-size: 20px;
+    }
+    .offers p {
+        font-size: 12px;
+    }
+    .destination .book1, .book2 {
+        width: 90%;
+    }
+    header .contant .tripbox {
+        margin-top: 110px;
+    }
+    .offers {
+        width: 97%;
+        margin-top: 160px;
+    }
+}
+@media screen and (max-width: 330px){
+    .offers h1 {
+        font-size: 16px;
+    }
+    .offers p {
+        font-size: 10px;
+    }
+    .offers .cards .card h3 {
+        width: 185px;
+        height: 30px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .offers .cards .card {
+        width: 190px;
+        height: 250px;
+    }
+    .offers .cards .card .img_txt {
+        height: 167px;
+    }
+    .offers .cards .card .img_txt h4 {
+        font-size: 7px;
+        padding: 5px 2.7px;
+    }
+    .offers .cards .card .con_bx .heart_chart i {
+        font-size: 13px;
+    }
+    .offers .cards .card .con_bx .heart_chart i:nth-child(1) span {
+        font-size: 13px;
+    }
+    .offers .cards .card .con_bx .price .price_info a{
+        font-size: 13px;
+    }
+    .offers .cards .card .con_bx .price .price_info h4 {
+        margin: 0;
+        font-size: 14px;
+    }
+    .offers .cards .card .con_bx .days{
+        padding: 6px;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 40%;
+    }
+    footer p {
+        text-align: center;
+        width: 277px;
+    }
+    footer .input input {
+        border: none;
+        outline: none;
+        padding: 7px 6px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    footer .input button {
+        padding: 9px 8px;
+    }
+}
+@media screen and (max-width: 300px){
+    footer ul li {
+        margin-right: 30px;
+        font-size: 12px;
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 35%;
+    }
+    .destination .book2 img {
+        width: 100%;
+        height: 330px;
+        border-radius: 7px;
+    }
+    header .contant .tripbox .c_bx {
+        margin-left: 6px;
+    }
+    header .contant .tripbox .search_bx {
+        margin-left: 4px;
+    }
+}
+@media screen and (max-width: 290px){
+    footer ul li {
+        margin-right: 25px;
+        
+    }
+    .destination .book2 .msg:nth-child(2) {
+        top: 10%;
+        left: 32%;
+    }
+    header .contant .tripbox .search_bx .card input {
+        font-size: 8px;
+    }
+    header .contant .tripbox .c_bx h4 {
+        margin: 0;
+        padding-top: 35px;
+        padding-left: 6px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    header .contant .tripbox .search_bx input[type="button"] {
+        position: absolute;
+        right: 10px;
+        bottom: -39px;
+        padding: 5px 8px;
+    }
+    
+}
+/*@media only screen and (min-width: 540px) and (max-height: 799px){
+    header .contant .tripbox{
+        margin-top: 45px;
+    }
+    header .contant .con_box {
+        width: auto;
+        padding: 25px 22px;
+    }
+}
+@media only screen and (min-width: 1280px) and (max-height: 899px){
+    header .contant .con_box {
+        color: white;
+        width: 448px;
+        padding: 45px 20px;
+    }
+    header .contant .tripbox{
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-height: 1100px){
+    header .contant .con_box{
+        padding: 45px 20px;
+        font-size: 20px;
+    }
+    header .contant .con_box button{
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    header .contant .con_box p {
+        font-size: 18px;
+    }
+    header .contant .tripbox{
+        margin-top: 40px;
+    }
+    header{
+        height: 85vh;
+    }
+    .offers {
+        margin-top: -10px;
+    }
+}
+@media only screen and (min-height: 1101px) and (max-height: 1300px){
+    header .contant .con_box{
+        padding: 55px 20px;
+        font-size: 25px;
+        width: 600px;
+    }
+    header .contant .con_box h1 {
+        line-height: 47px;
+    }
+    header .contant .con_box button{
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+    header .contant .con_box p {
+        font-size: 20px;
+    }
+    header .contant .tripbox{
+        margin-top: 80px;
+    }
+    header {
+        height: 85vh;
+    }
+    .offers {
+        margin-top: 74px;
+    }
+}
+@media only screen and (min-height: 1301px) and (max-height: 1500px){
+    header .contant .con_box{
+        padding: 55px 20px;
+        font-size: 25px;
+        width: 600px;
+    }
+    header .contant .con_box h1 {
+        line-height: 47px;
+    }
+    header .contant .con_box button{
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+    header .contant .con_box p {
+        font-size: 20px;
+    }
+    header .contant .tripbox{
+        margin-top: 80px;
+    }
+    header {
+        height: 70vh;
+    }
+    .offers {
+        margin-top: 74px;
+    }
+    .destination{
+        margin-top: 95px;
+    }
+}*/
+

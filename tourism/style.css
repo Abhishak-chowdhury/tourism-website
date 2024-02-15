@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+/*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 88%;
+    height: 95vh;
+    /*border: 1px solid black;*/
+    margin: auto;
+}
+header nav{
+    width: 95%;
+    height: 7%;
+    /*border: 1px solid black;*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 3px 11px;   
+}
+header nav ul li:nth-last-child(1){
+    background-color: black;
+    border-radius: 40px;
+    padding: 2px 12px;
+}
+header nav ul li:nth-last-child(1) a{
+    color: white;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: .2s linear;
+}
+header nav ul li a:hover{
+    color: rgb(163, 154, 154);
+}
+header nav .bi-three-dots-vertical{
+    display: none;
+}
+header .contant{
+    width: 100%;
+    height: 93%;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+header .contant::before{
+    content: '';
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    border-radius: 10px;
+    position: absolute;
+    background: url(boat1.jpg)no-repeat center center/cover;
+}
+header .contant .con_box{
+    color: white;
+    width: 448px;  
+    padding: 7px 20px;
+}
+header .contant .con_box h1{
+    line-height: 40px;
+    font-weight: 700;
+}
+header .contant .con_box p{
+    font-size: 15px;
+    font-weight: 500;
+}
+header .contant .con_box button{
+    font-size: 14px;
+    border-radius: 53px;
+    padding: 6px 13px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    transition: 1s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+header .contant .con_box button:hover{
+    background-color: rgb(65, 62, 62);
+}
+header .contant .tripbox{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+header .contant .tripbox .search_bx{
+    width: 60%;
+    height: 60px;
+    background: white;
+    border: 5px;
+    box-shadow: 0px 10px 25px rgb(114,114,114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+header .contant .tripbox .search_bx .card{
+    /*border: 1px solid black;*/
+    width: 180px;
+    height: 100%;
+    
+}
+header .contant .tripbox .search_bx .card h4{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+    margin-top: 2px;
+}
+header .contant .tripbox .search_bx .card .bi{
+    font-size: 12px;
+    margin: 3px 0px 0px 5px;
+    position: absolute;
+    transition: 0.5s linear;
+}
+header .contant .tripbox .search_bx .card input{
+    margin-top: 3px;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+header .contant .tripbox .search_bx input[type="button"]{
+    background-color: black;
+    border: none;
+    outline: none;
+    padding: 8px 11px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s linear;
+    font-weight: 500;
+
+}
+header .contant .tripbox .search_bx input[type="button"]:hover{
+    background-color: rgb(158, 157, 157);
+    color: black;
+}
+header .contant .tripbox .c_bx{
+    width: 95%;
+    height: 270px;
+   /* border: 1px solid black;*/
+    position: relative;
+    top: 35px;
+    /*background-color: black;*/
+    box-shadow: 0px 20px 25px -10px rgb(165,165,165);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+header .contant .tripbox .c_bx::before{
+    content: '';
+    position: absolute;
+    height: 270px;
+    width: 100%;
+    background-color: rgb(241,241,241,0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    z-index: -1;
+}
+header .contant .tripbox .c_bx h4{
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+header .contant .tripbox .c_bx .cards{
+   /* border: 1px solid black;*/
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .contant .tripbox .c_bx .cards .card{
+    width: 200px;
+    height: 180px;
+    /*border: 1px solid black;*/
+}
+header .contant .tripbox .c_bx .cards .card h3{
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+header .contant .tripbox .c_bx .cards .card h3 img{
+    width: 20px;
+    height: 16px;
+    margin-left: 5px;
+}
+header .contant .tripbox .c_bx .cards .card img{
+    width: 100%;
+    height: 60%;
+}
+header .contant .tripbox .c_bx .cards .card .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .contant .tripbox .c_bx .cards .card .btn a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px 6px;
+    border-radius: 36px;
+    transition: 1s;
+}
+header .contant .tripbox .c_bx .cards .card .btn a:hover{
+    background-color: rgb(65, 62, 62);
+}
+header .contant .tripbox .c_bx .cards .card .btn h4{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+}
+header .contant .tripbox .c_bx .cards .card .btn h4 span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.offers{
+    width: 70%;
+    /*border: 1px solid black;*/
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+.offers h1{
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+.offers p{
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.offers .cards{
+    display: flex;
+   /* border: 1px solid black;*/
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.offers .cards .card{
+    /*border: 1px solid black;*/
+    width: 200px;
+    height: 300px;
+}
+.offers .cards .card h3{
+    background-color: rgb(165,243,165);
+    width: 170px;
+    display: grid;
+    height: 30px;
+    place-content: center;
+    border-radius: 25px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+}
+.offers .cards .card .img_txt{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 3px;
+}
+.offers .cards .card .img_txt img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}
+.offers .cards .card .img_txt h4{
+    font-size: 8px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0px;
+    margin: 0;
+    z-index: 2;
+    text-align: center;
+}
+.offers .cards .card .img_txt h4::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.offers .cards .card .con_bx{
+    border: 1px solid rgb(198, 198, 198);
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px 0px;
+}
+.offers .cards .card .con_bx .heart_chart i{
+    font-size: 16px;
+}
+.offers .cards .card .con_bx .heart_chart i:nth-child(1){
+    color: red;
+    
+}
+.offers .cards .card .con_bx .heart_chart i:nth-child(1) span{
+    margin-left: 2px;
+    margin-right: 7px;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+}
+.offers .cards .card .con_bx .heart_chart i:nth-child(2){
+    color: rgb(112,196,229);
+}
+.offers .cards .card .con_bx .heart_chart i:nth-child(2) span{
+    margin-left: 2px;
+    margin-right: 3px;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+}
+.offers .cards .card .con_bx .price{
+    margin-left: 9px;
+}
+.offers .cards .card .con_bx .price .price_info{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.offers .cards .card .con_bx .price .price_info a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: 2s linear;
+    font-weight: 500;
+}
+.offers .cards .card .con_bx .price .price_info a:hover{
+    color: rgb(139, 138, 138);
+}
+.offers .cards .card .con_bx .price .price_info h4{
+    margin: 0;
+    font-size: 15px;
+}
+.offers .cards .card .con_bx .days{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 11px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.offers .cards .card .con_bx .days:hover{
+    transform: rotate(360deg);
+}
+.destination{
+    width: 50%;
+    /*border: 1px solid black;*/
+    display: flex;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.destination .book1,.book2{
+    width: 50%;
+    position: relative;
+    /*border: 1px solid black;*/
+    height: auto;
+}
+.destination .book1 h4{
+    margin: 0;
+    font-size: 24px;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+.destination .book1 p{
+    font-size: 12px;
+}
+.destination .book1 li{
+    list-style: none;
+    font-size: 12px;
+    padding: 0px 0px 8px 0px;
+    font-weight: 500;
+}
+.destination .book1 h6{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.destination .book1 button{
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.destination .book1 button:hover{
+    background: gray;
+    border: 2px solid gray;
+
+}
+.destination .book2 img{
+    width: 100%;
+    height: 370px;
+    border-radius: 7px;
+}
+.destination .book2 .msg{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 5px 20px gray;
+    display: flex;
+    align-items: center;
+    background: white;
+    top: 50%;
+    left: -10%;
+    padding: 0px 20px;
+    border-radius: 7px;
+}
+.destination .book2 .msg img{
+    width: 30px;
+    height: 25px;
+}
+.destination .book2 .msg .cont{
+    margin-left: 15px;
+}
+.destination .book2 .msg .cont h4{
+    margin: 0;
+    font-size: 15px;
+}
+.destination .book2 .msg .cont .icon i{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.destination .book2 .msg .cont .icon i:nth-child(1){
+    color: red;
+}
+.destination .book2 .msg .cont .icon i:nth-child(1) span{
+    color: black;
+}
+.destination .book2 .msg .cont .icon i:nth-child(2){
+    color: rgb(112,196,229);
+}
+.destination .book2 .msg .cont .icon i:nth-child(2) span{
+    color: black;
+}
+.destination .book2 .msg .cont .icon i span{
+    font-size: 13px;
+    font-style: normal;
+    margin-left: 2px;
+}
+.destination .book2 .msg:nth-child(2){
+    top: 10%;
+    left:50%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(248,248,255);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer h2{
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    width: 474px;
+    font-size: 13px;
+    font-weight: 100;
+}
+footer .input{
+    box-shadow: 0px 3px 20px -1px gray;
+    border-radius: 20px;
+}
+footer .input input{
+    
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+footer .input button{
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .3s linear;
+}
+footer .input button:hover{
+    background-color: gray;
+}
+footer ul{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li{
+    text-align: center;
+    margin-right: 60px;
+    font-weight: bold;
+}
+footer ul li h6{
+    margin: 0;
+    font-weight: 600;
+    /* width: 100px; */
+    max-width: 100px;
+    line-height: 14px;
+    border-top: 1px solid black;
+    padding-top: 3px;
+}
+footer .last{
+    font-size: 12px;
+    margin: auto;
+    margin-top: 20px;
+}
